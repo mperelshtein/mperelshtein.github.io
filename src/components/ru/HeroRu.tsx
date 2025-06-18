@@ -19,7 +19,7 @@ const HeroRu = () => {
           
           <div className="flex justify-center items-center gap-4 mb-4">
             <img src="/lovable-uploads/b2e5218d-c6b9-4001-a854-11b708779dd5.png" alt="unlonely.club логотип" className="h-12 w-auto" />
-            <h2 className="text-4xl lg:text-6xl font-bold leading-tight text-black">От Чужого к Родному</h2>
+            <h2 className="text-4xl lg:text-6xl font-bold leading-tight text-black">От чужого к родному</h2>
           </div>
           
           <p className="text-xl lg:text-2xl text-black mb-6 leading-relaxed">
