@@ -8,7 +8,7 @@ const FooterRu = () => {
   };
 
   return (
-    <footer className="text-white bg-[#ffffff] py-[30px]">
+    <footer className="text-white bg-[#f6f3ef] py-[30px]">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h3 className="text-xl font-bold mb-3 flex items-center justify-center gap-2 text-white">unlonely.</h3>
