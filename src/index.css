@@ -117,7 +117,7 @@
 
 /* Ensure card backgrounds are always white on all devices */
 .bg-card {
-  background-color: white !important;
+  background-color: #FFFFFF !important;
 }
 
 /* Force icon containers to have white backgrounds */
