@@ -23,7 +23,7 @@ const WaitlistRu = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={handleJoinWaitlist} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 rounded-xl">Подписаться (Telegram)</Button>
               
-              <Button onClick={handleFeedback} variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 h-12 rounded-xl">Форма обратной связи</Button>
+              <Button onClick={handleFeedback} variant="outline" className="bg-card text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 h-12 rounded-xl">Форма обратной связи</Button>
             </div>
 
             <p className="text-xs text-foreground mt-4">Ваша конфиденциальность важна для нас. Никакого спама, только строительство сообщества.</p>
