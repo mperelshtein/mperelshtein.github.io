@@ -48,7 +48,7 @@ const Tribes = () => {
               <p className="text-foreground mb-4 text-sm">{tribe.description}</p>
               
               {/* Testimonial integrated into the card */}
-              <div className="bg-muted/30 rounded-lg p-3 border-l-2 border-coral-accent">
+              <div className="bg-card rounded-lg p-3 border-l-2 border-coral-accent">
                 <p className="text-foreground italic text-left text-xs font-light">
                   "{tribe.testimonial}"
                 </p>
