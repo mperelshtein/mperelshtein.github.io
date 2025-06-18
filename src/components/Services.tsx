@@ -26,7 +26,7 @@ const Services = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {services.map((service, index) => <div key={index} className="group bg-card rounded-2xl border p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-scale-in" style={{
+          {services.map((service, index) => <div key={index} className="group bg-card rounded-2xl bg-card p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-scale-in" style={{
           animationDelay: `${index * 0.2}s`
         }}>
               <div className="w-12 h-12 rounded-xl bg-foreground/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
