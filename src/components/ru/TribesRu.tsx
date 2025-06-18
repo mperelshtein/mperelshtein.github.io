@@ -23,7 +23,7 @@ const TribesRu = () => {
     iconColor: "text-rose-600",
     testimonial: "Я присоединился к support tribe и нашел идеальный детский сад!"
   }];
-  return <section className="bg-white py-[40px]">
+  return <section className="bg-page py-[40px]">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
@@ -47,7 +47,7 @@ const TribesRu = () => {
               <p className="text-foreground mb-4 text-sm">{tribe.description}</p>
               
               {/* Testimonial integrated into the card */}
-              <div className="bg-muted rounded-lg p-3 border-l-2">
+              <div className="bg-card rounded-lg p-3 border-l-2">
                 <p className="text-foreground italic text-left text-xs font-light">
                   "{tribe.testimonial}"
                 </p>
