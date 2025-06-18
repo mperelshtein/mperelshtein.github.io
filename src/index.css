@@ -42,6 +42,9 @@
     --nordic-blue: 30 41 59;
     --nordic-light: 255 255 255;
     --coral-accent: 255 127 102;
+
+    --border: 255 255 255;
+    --border-primary: 255 255 255;
   }
 
   .dark {
