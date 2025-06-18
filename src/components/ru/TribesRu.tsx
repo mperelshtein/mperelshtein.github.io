@@ -35,8 +35,7 @@ const TribesRu = () => {
           </p>
         </div>
 
-        {/* Desktop Grid */}
-        <div className="hidden md:grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {tribes.map((tribe, index) => <div key={index} className="group bg-card rounded-2xl border p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-scale-in" style={{
           animationDelay: `${index * 0.2}s`
         }}>
@@ -48,7 +47,7 @@ const TribesRu = () => {
               <p className="text-foreground mb-4 text-sm">{tribe.description}</p>
               
               {/* Testimonial integrated into the card */}
-              <div className="bg-muted/30 rounded-lg p-3 border-l-2 border-coral-accent">
+              <div className="bg-muted rounded-lg p-3 border-l-2">
                 <p className="text-foreground italic text-left text-xs font-light">
                   "{tribe.testimonial}"
                 </p>
@@ -58,4 +57,4 @@ const TribesRu = () => {
       </div>
     </section>;
 };
-export default TribesRu;
+export default Tribes;
