@@ -7,7 +7,7 @@ const WaitlistRu = () => {
   const handleFeedback = () => {
     window.open('https://tally.so/r/woaYEN', '_blank');
   };
-  return <section id="waitlist" className="gradient-hero py-[40px]">
+  return <section id="waitlist" className="bg-card py-[40px]">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="bg-card rounded-3xl p-8 border shadow-xl">
