@@ -57,4 +57,4 @@ const TribesRu = () => {
       </div>
     </section>;
 };
-export default Tribes;
+export default TribesRu;
