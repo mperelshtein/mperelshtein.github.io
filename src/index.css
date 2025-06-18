@@ -95,7 +95,7 @@
 }
 
 .gradient-hero {
-  background: linear-gradient(135deg, hsl(var(--nordic-light)) 0%, hsl(var(--background)) 50%, hsl(var(--nordic-light)) 100%);
+  background: #f6f3ef !important;
 }
 
 .gradient-warmth {
@@ -136,8 +136,12 @@
   color: #e11d48 !important;
 }
 
-/* Ensure consistent white backgrounds across all screen sizes */
+/* Mobile-specific overrides to ensure proper backgrounds */
 @media (max-width: 768px) {
+  .gradient-hero {
+    background: #f6f3ef !important;
+  }
+  
   .bg-card {
     background-color: white !important;
   }
@@ -145,5 +149,15 @@
   .bg-emerald-100, .bg-orange-100, .bg-rose-100 {
     background-color: white !important;
     border: 1px solid #e5e7eb !important;
+  }
+  
+  /* Override any gradient backgrounds on mobile */
+  section[class*="gradient"] {
+    background: #f6f3ef !important;
+  }
+  
+  /* Specifically target hero sections */
+  section.gradient-hero {
+    background: #f6f3ef !important;
   }
 }
