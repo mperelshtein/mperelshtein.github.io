@@ -10,13 +10,13 @@ const Index = () => {
   return <div className="min-h-screen">
       <LanguageToggle />
       <Hero />
-      <Separator className="h-[2px] opacity-100 bg-transparent" />
+      <Separator className="h-[2px] opacity-0 bg-black" />
       <ProblemSolution />
-      <Separator className="h-[2px] opacity-100 bg-zinc-100" />
+      <Separator className="h-[1px] opacity-100 bg-black" />
       <Services />
-      <Separator className="h-[2px] opacity-100 bg-zinc-100" />
+      <Separator className="h-[1px] opacity-100 bg-black" />
       <Tribes />
-      <Separator className="h-[2px] opacity-100 bg-transparent" />
+      <Separator className="h-[1px] opacity-0 bg-black" />
       <Waitlist />
       <Separator className="h-[2px] opacity-100 bg-black" />
       <Footer />
