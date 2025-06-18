@@ -19,7 +19,7 @@ const LanguageToggle = () => {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-50 flex items-center gap-1 bg-white/90 backdrop-blur-sm p-1 rounded-full border shadow-lg">
+    <div className="fixed top-4 right-4 z-50 flex items-center gap-1 bg-white/90 backdrop-blur-sm p-1 rounded-full bg-card shadow-lg">
       <Button
         variant={language === 'en' ? 'default' : 'ghost'}
         size="sm"
