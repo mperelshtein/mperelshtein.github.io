@@ -43,7 +43,7 @@ const ProblemSolution = () => {
             <h3 className="text-2xl font-semibold text-center mb-6 text-foreground">
               The Immigrant Struggle
             </h3>
-            {problems.map((problem, index) => <div key={index} className="flex gap-4 p-6 bg-card rounded-xl border animate-fade-in" style={{
+            {problems.map((problem, index) => <div key={index} className="flex gap-4 p-6 bg-card rounded-xl bg-card animate-fade-in" style={{
             animationDelay: `${index * 0.1}s`
           }}>
                 <div className="flex-shrink-0">
@@ -61,7 +61,7 @@ const ProblemSolution = () => {
             <h3 className="text-2xl font-semibold text-center mb-6 text-foreground">
               Your Path to Belonging
             </h3>
-            {solutions.map((solution, index) => <div key={index} className="flex gap-4 p-6 bg-card rounded-xl border animate-fade-in" style={{
+            {solutions.map((solution, index) => <div key={index} className="flex gap-4 p-6 bg-card rounded-xl bg-card animate-fade-in" style={{
             animationDelay: `${(index + 3) * 0.1}s`
           }}>
                 <div className="flex-shrink-0">
