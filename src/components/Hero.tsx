@@ -28,15 +28,15 @@ const Hero = () => {
         </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border">
+            <div className="flex items-center gap-2 bg-card px-4 py-2 rounded-full border">
               <Home className="w-4 h-4 text-black" />
               <span className="text-sm font-medium text-black">Feel at Home</span>
             </div>
-            <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border">
+            <div className="flex items-center gap-2 bg-card px-4 py-2 rounded-full border">
               <Users className="w-4 h-4 text-black" />
               <span className="text-sm font-medium text-black">Build Friendships</span>
             </div>
-            <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border">
+            <div className="flex items-center gap-2 bg-card px-4 py-2 rounded-full border">
               <Heart className="w-4 h-4 text-black" />
               <span className="text-sm font-medium text-black">Gain Confidence</span>
             </div>
