@@ -52,11 +52,11 @@ const Hero = () => {
       </div>
       
       {/* Background decoration */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-50 pointer-events-none">
+{/*       <div className="absolute top-0 left-0 w-full h-full opacity-50 pointer-events-none">
         <div className="absolute top-20 left-10 w-20 h-20 bg-coral-accent/20 rounded-full blur-xl"></div>
         <div className="absolute top-40 right-20 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
         <div className="absolute bottom-20 left-1/4 w-24 h-24 bg-coral-accent/20 rounded-full blur-xl"></div>
-      </div>
+      </div> */}
     </section>;
 };
 export default Hero;
