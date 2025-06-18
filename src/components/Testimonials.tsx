@@ -20,7 +20,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -35,7 +35,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-card rounded-2xl p-8 border hover:shadow-lg transition-all duration-300 animate-fade-in"
+              className="bg-card rounded-2xl p-8 bg-card hover:shadow-lg transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="flex items-center gap-1 mb-4">
