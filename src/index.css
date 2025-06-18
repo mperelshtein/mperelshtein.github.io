@@ -96,7 +96,7 @@
 }
 
 .gradient-hero {
-  background: linear-gradient(135deg, hsl(var(--nordic-light)) 0%, hsl(var(--background)) 0%, hsl(var(--nordic-light)) 100%);
+  background: linear-gradient(135deg, hsl(var(--nordic-light)) 0%, hsl(var(--background)) 50%, hsl(var(--nordic-light)) 100%);
 }
 
 .gradient-warmth {
