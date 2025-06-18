@@ -18,10 +18,10 @@
     --primary: 30 41 59;
     --primary-foreground: 255 255 255;
 
-    --secondary: 241 245 249;
+    --secondary: 255 255 255;
     --secondary-foreground: 0 0 0; /* Pure black text */
 
-    --muted: 248 250 252;
+    --muted: 255 255 255;
     --muted-foreground: 0 0 0; /* Pure black text */
 
     --accent: 255 127 102;
@@ -30,8 +30,8 @@
     --destructive: 239 68 68;
     --destructive-foreground: 248 250 252;
 
-    --border: 226 232 240;
-    --input: 226 232 240;
+    --border: 255 255 255;
+    --input: 255 255 255;
     --ring: 30 41 59;
 
     --radius: 0.75rem;
@@ -40,7 +40,7 @@
     --warmth-foreground: 255 255 255;
     
     --nordic-blue: 30 41 59;
-    --nordic-light: 248 250 252;
+    --nordic-light: 255 255 255;
     --coral-accent: 255 127 102;
   }
 
