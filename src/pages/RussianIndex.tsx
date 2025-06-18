@@ -18,9 +18,9 @@ const RussianIndex = () => {
       <ServicesRu />
       <Separator className="h-[2px] opacity-100 bg-zinc-100" />
       <TribesRu />
-      <Separator className="h-[2px] opacity-100 bg-zinc-100" />
-      <WaitlistRu />
       <Separator className="h-[2px] opacity-100 bg-transparent" />
+      <WaitlistRu />
+      <Separator className="h-[2px] opacity-100 bg-zinc-100" />
       <FooterRu />
     </div>;
 };
