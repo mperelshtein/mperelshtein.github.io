@@ -139,7 +139,7 @@
 /* Mobile-specific overrides to ensure proper backgrounds */
 @media (max-width: 768px) {
   .gradient-hero {
-    background: #f6f3ef !important;
+    background: #FFFFFF !important;
   }
   
   .bg-card {
@@ -153,11 +153,11 @@
   
   /* Override any gradient backgrounds on mobile */
   section[class*="gradient"] {
-    background: #f6f3ef !important;
+    background: #FFFFFF !important;
   }
   
   /* Specifically target hero sections */
   section.gradient-hero {
-    background: #f6f3ef !important;
+    background: #FFFFFF !important;
   }
 }
