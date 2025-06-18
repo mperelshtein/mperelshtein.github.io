@@ -7,7 +7,7 @@ const TribesRu = () => {
     icon: TrendingUp,
     color: "bg-emerald-100 border-emerald-200",
     iconColor: "text-emerald-600",
-    testimonial: "Я присоединился к growth tribe и получил теплое знакомство в Supercell!"
+    testimonial: "Я присоединился к growth tribe и познакомился с менеджером в Supercell, который ищет людей в команду!"
   }, {
     name: "tribe.energy",
     description: "Найдите новые виды спорта и продолжите старые хобби",
