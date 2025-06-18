@@ -56,7 +56,7 @@ const ProblemSolutionRu = () => {
               Борьба иммигранта
             </h3>
             {problems.map((problem, index) => (
-              <div key={index} className="flex gap-4 p-6 bg-card rounded-xl border animate-fade-in" style={{
+              <div key={index} className="flex gap-4 p-6 bg-card rounded-xl bg-card animate-fade-in" style={{
                 animationDelay: `${index * 0.1}s`
               }}>
                 <div className="flex-shrink-0">
@@ -76,7 +76,7 @@ const ProblemSolutionRu = () => {
               Ваш путь к принадлежности
             </h3>
             {solutions.map((solution, index) => (
-              <div key={index} className="flex gap-4 p-6 bg-card rounded-xl border animate-fade-in" style={{
+              <div key={index} className="flex gap-4 p-6 bg-card rounded-xl bg-card animate-fade-in" style={{
                 animationDelay: `${(index + 3) * 0.1}s`
               }}>
                 <div className="flex-shrink-0">
