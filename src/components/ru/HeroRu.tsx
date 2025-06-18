@@ -42,7 +42,7 @@ const HeroRu = () => {
           </div>
           
           <Button onClick={scrollToWaitlist} size="lg" className="bg-primary hover:bg-primary/90 text-white font-semibold px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl">
-            Начните свое путешествие интеграции
+            Начните свой путь интеграции
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
           
