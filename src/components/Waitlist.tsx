@@ -10,7 +10,7 @@ const Waitlist = () => {
   return <section id="waitlist" className="gradient-hero py-[40px]">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
-          <div className="bg-card rounded-3xl p-8 border shadow-xl">
+          <div className="bg-card rounded-3xl p-8 bg-card shadow-xl">
             <div className="flex justify-center items-center gap-2 mb-4">
               <Home className="w-8 h-8 text-foreground" />
               <Users className="w-8 h-8 text-foreground" />
@@ -23,7 +23,7 @@ const Waitlist = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={handleJoinWaitlist} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 rounded-xl">Join the Waitlist (Telegram)</Button>
               
-              <Button onClick={handleFeedback} variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 h-12 rounded-xl">
+              <Button onClick={handleFeedback} variant="outline" className="bg-card text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 h-12 rounded-xl">
                 Share Your Story
               </Button>
             </div>
