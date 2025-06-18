@@ -16,7 +16,6 @@ const Index = () => {
       <Services />
       <Separator className="h-[1px] opacity-100 bg-black" />
       <Tribes />
-      <Separator className="h-[1px] opacity-1 bg-black" />
       <Waitlist />
       <Separator className="h-[2px] opacity-100 bg-black" />
       <Footer />
