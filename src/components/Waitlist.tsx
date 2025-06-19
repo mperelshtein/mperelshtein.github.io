@@ -24,7 +24,7 @@ const Waitlist = () => {
               <Button onClick={handleJoinWaitlist} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 rounded-xl">Join the Waitlist (Telegram)</Button>
               
               <Button onClick={handleFeedback} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 rounded-xl">
-                Share Your Story
+                Features Request
               </Button>
             </div>
 
