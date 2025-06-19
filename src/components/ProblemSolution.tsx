@@ -26,7 +26,7 @@ const ProblemSolution = () => {
     title: "Create Your Support Network",
     description: "Build a chosen family in Finland - people who celebrate your wins and support you through challenges"
   }];
-  return <section className="bg-card py-[30px]">
+  return <section className="bg-[#ffffff] py-[30px]">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
