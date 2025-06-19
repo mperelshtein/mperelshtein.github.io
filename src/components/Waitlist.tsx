@@ -10,7 +10,7 @@ const Waitlist = () => {
   return <section id="waitlist" className="bg-card py-[40px]">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
-          <div className="bg-card rounded-3xl p-8 bg-card shadow-xl">
+          <div className="bg-[#ffffff] rounded-3xl p-8 bg-card shadow-xl">
             <div className="flex justify-center items-center gap-2 mb-4">
               <Home className="w-8 h-8 text-foreground" />
               <Users className="w-8 h-8 text-foreground" />
