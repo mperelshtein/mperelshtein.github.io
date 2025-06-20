@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           
           <div className="flex justify-center items-center gap-4 mb-4">
-            <img src="/lovable-uploads/b2e5218d-c6b9-4001-a854-11b708779dd5.png" alt="unlonely.club logo" className="h-12 w-auto" />
+{/*             <img src="/lovable-uploads/b2e5218d-c6b9-4001-a854-11b708779dd5.png" alt="unlonely.club logo" className="h-12 w-auto" /> */}
             <h2 className="text-4xl lg:text-6xl font-bold leading-tight text-black">
               From Stranger to Belonging
             </h2>
